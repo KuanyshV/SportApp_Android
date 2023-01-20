@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/footballImageInfoId"
+        android:layout_width="380dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/volleyball" />
+    <TextView
+        android:text="Volleyball"
+        android:gravity="center"
+        android:layout_width="311dp"
+        android:layout_height="45dp"
+        android:id="@+id/volleyballinfo" android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="48dp" android:layout_marginStart="48dp"
+        android:textColor="@android:color/black" android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        app:layout_constraintTop_toBottomOf="@+id/footballImageInfoId" app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="48dp" android:layout_marginRight="48dp"/>
+
+    <TextView
+        android:layout_width="304dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:gravity="center"
+        android:text="Volleyball is a team sport in which two teams of six players are separated by a net. Each team tries to score points by grounding a ball on the other team's court under organized rules."
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@id/volleyballinfo"
+        app:layout_constraintTop_toBottomOf="@+id/volleyballinfo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

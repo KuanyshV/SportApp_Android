@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/tennisImageInfoId"
+        android:layout_width="380dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tennis" />
+    <TextView
+        android:text="Tennis"
+        android:gravity="center"
+        android:layout_width="311dp"
+        android:layout_height="45dp"
+        android:id="@+id/tennisinfo" android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="48dp" android:layout_marginStart="48dp"
+        android:textColor="@android:color/black" android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        app:layout_constraintTop_toBottomOf="@+id/tennisImageInfoId" app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="48dp" android:layout_marginRight="48dp"/>
+
+    <TextView
+        android:layout_width="304dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:gravity="center"
+        android:text="Tennis is a racket sport that can be played individually against a single opponent or between two teams of two players each. Each player uses a tennis racket that is strung with cord to strike a hollow rubber ball covered with felt over or around a net and into the opponent's court."
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@id/tennisinfo"
+        app:layout_constraintTop_toBottomOf="@+id/tennisinfo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

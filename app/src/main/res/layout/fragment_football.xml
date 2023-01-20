@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/footballImageInfoId"
+        android:layout_width="380dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/footbal_men_goalkeeper_football_lawn_548074_2560x1440" />
+    <TextView
+        android:text="Football"
+        android:gravity="center"
+        android:layout_width="311dp"
+        android:layout_height="45dp"
+        android:id="@+id/footballinfo" android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="48dp" android:layout_marginStart="48dp"
+        android:textColor="@android:color/black" android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        app:layout_constraintTop_toBottomOf="@+id/footballImageInfoId" app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="48dp" android:layout_marginRight="48dp"/>
+
+    <TextView
+        android:layout_width="304dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:gravity="center"
+        android:text="Football is a game involving two teams of 11 players who try to maneuver the ball into the other team's goal without using their hands or arms. The team that scores more goals wins.\n\nFootball is the greatest sport ever!"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@id/footballinfo"
+        app:layout_constraintTop_toBottomOf="@+id/footballinfo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
